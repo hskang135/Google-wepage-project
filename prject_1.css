@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none; /* get rid of annoying dots */
+}
+
+li{
+    display: inline-block;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(242, 240, 240);
+    font-size: 15px;
+    margin: 0 5px;
+    color: rgb(114, 113, 113);
+}
+
+#nav {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#nav-right-side {
+    display: inline-block;
+    position: fixed;
+    right: 30px;
+}
+
+#purple-h {
+    height: 26px;
+    width: 23px;
+    font-size: 20px;
+    background-color: rgb(167, 41, 167);
+    color: white;
+    border-radius: 50%;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+#main_google {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#google_h1 {
+    font-size: 90px;
+}
+
+#google_input {
+    height: 40px;
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+#button_container {
+    position: relative;
+    top: 60px;
+}
+
+.seperate-nav-items {
+    margin-left: 16px;
+}
+
+.google_letter {
+    margin-left: -24px;
+}
+
